@@ -38,5 +38,5 @@ def eh_possivel_sair(labirinto):
     else:
         return False
 
-labirinto = gera_lab(7,15)
+labirinto = gera_lab(7,14)
 print(eh_possivel_sair(labirinto))
