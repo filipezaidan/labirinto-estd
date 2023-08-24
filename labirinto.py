@@ -20,12 +20,6 @@ class Labirinto:
         new_postion = (line,col-1)
         self._labirinto[line][col-1] = "*"
         self.position = new_postion
-    
-    def toLeft(self):
-        line, col = self.position
-        new_postion = (line,col-1)
-        self._labirinto[line][col-1] = "*"
-        self.position = new_postion
 
     def toUp(self):
         line, col = self.position
